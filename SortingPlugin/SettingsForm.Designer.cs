@@ -50,7 +50,7 @@ namespace SortingPlugin
       this.Controls.Add(this.propertyGrid);
       this.Name = "SettingsForm";
       this.ShowIcon = false;
-      this.Text = "Sorting Plugin Settings";
+      this.Text = "≈≈–Ú≤Âº˛…Ë÷√";
       this.ResumeLayout(false);
 
     }
