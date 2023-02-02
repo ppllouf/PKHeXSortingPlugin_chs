@@ -38,7 +38,7 @@ namespace SortingPlugin {
       ToolStrip menu = (ToolStrip)Array.Find(globalArgs, z => z is ToolStrip);
       ToolStripDropDownItem menuTools = menu.Items.Find("Menu_Tools", false)[0] as ToolStripDropDownItem;
       menuTools.DropDownItems.RemoveByKey("SortBoxesBy");
-      ToolStripMenuItem sortBoxesItem = new ToolStripMenuItem("盒子排序") {
+      ToolStripMenuItem sortBoxesItem = new ToolStripMenuItem("盒子排序插件") {
         Name = "SortBoxesBy",
         Image = Properties.Resources.SortIcon
       };
